@@ -1,0 +1,15 @@
+<p
+[textContent]="title"  [style.backgroundColor]="isActive ? 'blue' : 'white' " ></p>
+<img src="{{imgUrl}}" width="100">
+<br><button class="btn btn-danger" >Click-me</button><br>
+<input type="text" [(ngModel)]="entrepriseName"(keyup.enter)="myFunction()"><br> 
+<table border="1">
+  <tr>
+    <td>Nom</td>
+    <td>Prenom</td>
+  </tr>
+  <tr>
+    <td [attr.colspan]="value">Ons Jeridi</td>
+  </tr>
+
+</table>
